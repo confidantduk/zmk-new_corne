@@ -94,8 +94,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - INS
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - Fn
   - LEFT WIN
   SYMBOL:
