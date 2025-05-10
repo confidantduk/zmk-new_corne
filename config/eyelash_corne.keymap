@@ -70,7 +70,7 @@
             bindings = <
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                            &mmv MOVE_UP                     &kp MINUS  &kp PLUS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
 &kp TAB    &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9        &kp N0            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER  &kp EQUAL  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp PIPE       &trans
-&mo 4      &kp LEFT_ALT  &trans        &trans        &trans        &trans  &trans                    &mmv MOVE_DOWN                   &trans     &trans     &trans              &trans             &trans         &trans
+&mo 4      &kp LEFT_WIN  &kp LEFT_ALT  &trans        &trans        &trans  &trans                    &mmv MOVE_DOWN                   &trans     &trans     &trans              &trans             &trans         &trans
                                        &trans        &trans        &trans                                                             &trans     &mo 3      &kp K_CONTEXT_MENU
             >;
 
