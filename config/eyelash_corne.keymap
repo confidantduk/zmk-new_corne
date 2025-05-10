@@ -103,10 +103,10 @@
 
         reversedsides {
             bindings = <
-&trans    &kp Y  &kp U  &kp I   &kp O   &kp P                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&kp CAPS  &kp H  &kp J  &kp K   &kp L   &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans    &kp N  &kp M  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
+&kp DELETE  &kp Y  &kp U  &kp I   &kp O   &kp P                     &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&kp CAPS    &kp H  &kp J  &kp K   &kp L   &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &kp N  &kp M  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
     };
