@@ -79,8 +79,8 @@ layers:
   - '|'
   - {t: '$$mdi:transfer$$', type: trans}
   - reversedsides
+  - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
