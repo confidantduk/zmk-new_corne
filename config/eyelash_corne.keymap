@@ -56,10 +56,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R  &kp T                              &kp PG_UP               &kp Y      &kp U  &kp I         &kp O    &kp P     &kp BSPC
-&kp TAB         &kp A  &kp S  &kp D      &kp F  &kp G                    &kp HOME  &kp C_PP       &kp END  &kp H      &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V  &kp B      &kp C_MUTE              &kp PAGE_DOWN           &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LCTRL  &mo 1  &kp SPACE                                                  &kp ENTER  &mo 2  &kp LEFT_GUI
+&kp ESCAPE      &kp Q  &kp W  &kp E      &kp R  &kp T                                    &mmv MOVE_UP                     &kp Y      &kp U  &kp I         &kp O    &kp P     &kp BSPC
+&kp TAB         &kp A  &kp S  &kp D      &kp F  &kp G                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H      &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V  &kp B      &kp C_MUTE                    &mmv MOVE_DOWN                   &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                              &kp LCTRL  &mo 1  &kp SPACE                                                                 &kp ENTER  &mo 2  &kp LEFT_GUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -68,10 +68,10 @@
         numAndSym {
             display-name = "NUMBER";
             bindings = <
-&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                            &mmv MOVE_UP                     &kp MINUS  &kp PLUS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&kp TAB    &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9        &kp N0            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp UNDER  &kp EQUAL  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp PIPE       &trans
-&mo 4      &kp LEFT_WIN  &kp LEFT_ALT  &trans        &trans        &trans  &trans                    &mmv MOVE_DOWN                   &trans     &trans     &trans              &trans             &trans         &trans
-                                       &trans        &trans        &trans                                                             &trans     &mo 3      &kp K_CONTEXT_MENU
+&kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                    &trans          &kp MINUS  &kp PLUS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&kp TAB    &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9        &kp N0            &trans  &trans  &trans  &kp UNDER  &kp EQUAL  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp PIPE       &trans
+&mo 4      &kp LEFT_WIN  &kp LEFT_ALT  &trans        &trans        &trans  &trans            &trans          &trans     &trans     &trans              &trans             &trans         &trans
+                                       &trans        &trans        &mo 2                                     &trans     &mo 3      &kp K_CONTEXT_MENU
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -92,8 +92,8 @@
         rgbAndBt {
             display-name = "Fn";
             bindings = <
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans                    &trans          &trans        &trans        &trans        &trans        &ext_power EP_OFF  &kp K_SLEEP
-&rgb_ug RGB_EFF  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans           &trans            &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans             &kp K_POWER
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SPI  &rgb_ug RGB_SPD  &trans                    &trans          &trans        &trans        &trans        &trans        &ext_power EP_OFF  &kp C_SLEEP_MODE
+&rgb_ug RGB_EFF  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &trans           &trans           &trans            &trans  &trans  &trans  &trans        &trans        &trans        &trans        &trans             &kp C_POWER
 &rgb_ug RGB_EFR  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans           &trans           &trans  &trans            &trans          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4       &trans
                                                    &trans           &trans           &trans                                    &trans        &trans        &bt BT_CLR
             >;
