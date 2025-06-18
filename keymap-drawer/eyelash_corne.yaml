@@ -82,7 +82,7 @@ layers:
   - LHS_mouse
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+Sft+S
   - reversedsides
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
