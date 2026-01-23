@@ -84,7 +84,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - Gui+Sft+S
   - reversedsides
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
