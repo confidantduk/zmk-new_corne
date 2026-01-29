@@ -82,7 +82,7 @@ layers:
   - LHS_mouse
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - Gui+Sft+S
+  - {t: '$$mdi:transfer$$', type: trans}
   - reversedsides
   - $$mdi:apple-keyboard-caps$$
   - {t: '$$mdi:transfer$$', type: trans}
