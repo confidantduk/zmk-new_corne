@@ -68,10 +68,10 @@
         numAndSym {
             display-name = "NUMBER";
             bindings = <
-&kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5                          &trans          &kp MINUS  &kp PLUS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&kp TAB         &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9         &kp N0                  &trans  &trans  &trans  &kp UNDER  &kp EQUAL  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp PIPE       &trans
-&kp LEFT_SHIFT  &mo 5         &kp LEFT_WIN  &kp LEFT_ALT  &kp LG(LS(S))  &mo 4   &kp CAPSLOCK            &trans          &trans     &trans     &trans              &trans             &trans         &trans
-                                            &trans        &trans         &mo 2                                           &trans     &mo 3      &kp K_CONTEXT_MENU
+&kp GRAVE       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                          &trans          &kp MINUS  &kp PLUS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+&kp TAB         &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9        &kp N0                  &trans  &trans  &trans  &kp UNDER  &kp EQUAL  &kp LEFT_BRACE      &kp RIGHT_BRACE    &kp PIPE       &trans
+&kp LEFT_SHIFT  &mo 5         &kp LEFT_WIN  &kp LEFT_ALT  &trans        &mo 4   &kp CAPSLOCK            &trans          &trans     &trans     &trans              &trans             &trans         &trans
+                                            &trans        &trans        &mo 2                                           &trans     &mo 3      &kp K_CONTEXT_MENU
             >;
 
             sensor-bindings = <&scroll_encoder>;
