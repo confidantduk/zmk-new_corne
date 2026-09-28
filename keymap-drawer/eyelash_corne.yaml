@@ -95,7 +95,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {type: held}
   - SYMBOL
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   - Fn
   - CONTEXT MENU
   SYMBOL:
